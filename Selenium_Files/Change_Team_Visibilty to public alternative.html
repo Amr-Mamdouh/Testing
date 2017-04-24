@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head profile="http://selenium-ide.openqa.org/profiles/test-case">
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<link rel="selenium.base" href="https://trello.com/" />
+<title>US_Change_Team Visibility to public  alternativ</title>
+</head>
+<body>
+<table cellpadding="1" cellspacing="1" border="1">
+<thead>
+<tr><td rowspan="1" colspan="3">US_Change_Team Visibility to public  alternativ</td></tr>
+</thead><tbody>
+<tr>
+	<td>open</td>
+	<td>/</td>
+	<td></td>
+</tr>
+<tr>
+	<td>assertText</td>
+	<td>//div[@id='content']/div/div[2]/div/div/div[2]/div/div[2]/a[3]/span[2]/span</td>
+	<td>Settings</td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>//div[@id='content']/div/div[2]/div/div/div[2]/div/div[2]/a[3]/span[2]/span</td>
+	<td></td>
+</tr>
+<tr>
+	<td>assertElementPresent</td>
+	<td>css=a.button-link.u-text-align-center &gt; span</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>css=a.button-link.u-text-align-center &gt; span</td>
+	<td></td>
+</tr>
+<tr>
+	<td>verifyText</td>
+	<td>link=PrivateThis team is private. It's not indexed or visible to those outside the team.</td>
+	<td>PrivateThis team is private. It's not indexed or visible to those outside the team.</td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>link=PrivateThis team is private. It's not indexed or visible to those outside the team.</td>
+	<td></td>
+</tr>
+</tbody></table>
+</body>
+</html>

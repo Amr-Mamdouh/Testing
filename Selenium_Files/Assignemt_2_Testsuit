@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+  <meta content="text/html; charset=UTF-8" http-equiv="content-type" />
+  <title>Test Suite</title>
+</head>
+<body>
+<table id="suiteTable" cellpadding="1" cellspacing="1" border="1" class="selenium"><tbody>
+<tr><td><b>Test Suite</b></td></tr>
+<tr><td><a href="add board.html">add board</a></td></tr>
+<tr><td><a href="copy_Board.html">copy_Board</a></td></tr>
+<tr><td><a href="UC_Close AND ReOpen_ Board.html">UC_Close AND ReOpen_ Board</a></td></tr>
+<tr><td><a href="create list.html">create list</a></td></tr>
+<tr><td><a href="create card.html">create card</a></td></tr>
+<tr><td><a href="create_Personal_Team.html">create_Personal_Team</a></td></tr>
+<tr><td><a href="Change_Team_Visibilty to public.html">Change_Team_Visibilty to public</a></td></tr>
+<tr><td><a href="Change_Team_Visibilty to public alternative.html">Change_Team_Visibilty to public alternative</a></td></tr>
+</tbody></table>
+</body>
+</html>

@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head profile="http://selenium-ide.openqa.org/profiles/test-case">
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<link rel="selenium.base" href="https://trello.com/" />
+<title>UC_Close AND ReOpen_ Board</title>
+</head>
+<body>
+<table cellpadding="1" cellspacing="1" border="1">
+<thead>
+<tr><td rowspan="1" colspan="3">UC_Close AND ReOpen_ Board</td></tr>
+</thead><tbody>
+<tr>
+	<td>open</td>
+	<td>/</td>
+	<td></td>
+</tr>
+<tr>
+	<td>verifyText</td>
+	<td>css=span.board-tile-details.is-badged</td>
+	<td>assignment2testing</td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>css=span.board-tile-details.is-badged</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>link=More</td>
+	<td></td>
+</tr>
+<tr>
+	<td>verifyText</td>
+	<td>link=Close Board…</td>
+	<td>Close Board…</td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>link=Close Board…</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>//input[@value='Close']</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>link=Boards</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>link=See closed boards…</td>
+	<td></td>
+</tr>
+<tr>
+	<td>verifyText</td>
+	<td>css=a.button-link.js-reopen</td>
+	<td>Re-open</td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>css=a.button-link.js-reopen</td>
+	<td></td>
+</tr>
+</tbody></table>
+</body>
+</html>
